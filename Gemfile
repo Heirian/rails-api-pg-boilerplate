@@ -41,6 +41,8 @@ group :development, :test do
   gem 'rubocop-rspec', '~> 1.30', '>= 1.30.1'
   # RubyCritic is a tool that wraps around various static analysis gems to provide a quality report of your Ruby code.
   gem 'rubycritic', '~> 3.5', '>= 3.5.2', require: false
+  # Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.
+  gem 'brakeman', '~> 4.3', '>= 4.3.1', require: false
 end
 
 group :development do
