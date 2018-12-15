@@ -54,6 +54,8 @@ group :development, :test do
   # Shoulda Matchers provides RSpec- and Minitest-compatible one-liners that test common Rails functionality.
   # These tests would otherwise be much longer, more complex, and error-prone.
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2', require: false
+  # Guard is a command line tool to easily handle events on file system modifications.
+  gem 'guard', '~> 2.15', require: false
 end
 
 group :development do
