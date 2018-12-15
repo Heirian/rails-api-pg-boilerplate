@@ -35,6 +35,8 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Automatic Ruby code style checking tool. Aims to enforce the community-driven Ruby Style Guide.
   gem 'rubocop', '~> 0.61.1', require: false
+  # rspec-rails is a testing framework for Rails 3+.
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.1'
 end
 
 group :development do
