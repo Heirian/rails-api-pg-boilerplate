@@ -39,6 +39,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.8', '>= 3.8.1'
   # Code style checking for RSpec files. A plugin for the RuboCop code style enforcing & linting tool.
   gem 'rubocop-rspec', '~> 1.30', '>= 1.30.1'
+  # RubyCritic is a tool that wraps around various static analysis gems to provide a quality report of your Ruby code.
+  gem 'rubycritic', '~> 3.5', '>= 3.5.2', require: false
 end
 
 group :development do
