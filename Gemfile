@@ -45,6 +45,9 @@ group :development, :test do
   gem 'brakeman', '~> 4.3', '>= 4.3.1', require: false
   # bundler-audit provides patch-level verification for Bundled apps.
   gem 'bundler-audit', '~> 0.6.0', require: false
+  # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic
+  # merging of coverage across test suites
+  gem 'simplecov', '~> 0.16.1', require: false
 end
 
 group :development do
