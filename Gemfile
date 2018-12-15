@@ -43,6 +43,8 @@ group :development, :test do
   gem 'rubycritic', '~> 3.5', '>= 3.5.2', require: false
   # Brakeman detects security vulnerabilities in Ruby on Rails applications via static analysis.
   gem 'brakeman', '~> 4.3', '>= 4.3.1', require: false
+  # bundler-audit provides patch-level verification for Bundled apps.
+  gem 'bundler-audit', '~> 0.6.0', require: false
 end
 
 group :development do
