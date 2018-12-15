@@ -48,6 +48,9 @@ group :development, :test do
   # Code coverage for Ruby 1.9+ with a powerful configuration library and automatic
   # merging of coverage across test suites
   gem 'simplecov', '~> 0.16.1', require: false
+  # factory_bot_rails provides integration between factory_bot and rails 3 or newer
+  # (currently just automatic factory definition loading)
+  gem 'factory_bot_rails', '~> 4.11', '>= 4.11.1', require: false
 end
 
 group :development do
