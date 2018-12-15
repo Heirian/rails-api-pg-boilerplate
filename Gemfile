@@ -56,6 +56,8 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2', require: false
   # Guard is a command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.15', require: false
+  # Guard::RSpec automatically run your specs (much like autotest).
+  gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
 end
 
 group :development do
