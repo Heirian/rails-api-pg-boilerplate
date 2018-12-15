@@ -37,6 +37,8 @@ group :development, :test do
   gem 'rubocop', '~> 0.61.1', require: false
   # rspec-rails is a testing framework for Rails 3+.
   gem 'rspec-rails', '~> 3.8', '>= 3.8.1'
+  # Code style checking for RSpec files. A plugin for the RuboCop code style enforcing & linting tool.
+  gem 'rubocop-rspec', '~> 1.30', '>= 1.30.1'
 end
 
 group :development do
