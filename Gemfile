@@ -75,6 +75,10 @@ group :development do
   gem 'pry-rails', '~> 0.3.8'
 end
 
+group :test do
+  # Strategies for cleaning databases. Can be used to ensure a clean state for testing.
+  gem 'database_cleaner', '~> 1.7', require: false
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
