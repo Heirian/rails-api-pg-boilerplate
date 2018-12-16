@@ -69,6 +69,8 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   # help to kill N+1 queries and unused eager loading.
   gem 'bullet', '~> 5.9'
+  # Use Pry as your rails console
+  gem 'pry-rails', '~> 0.3.8'
 end
 
 
