@@ -84,6 +84,8 @@ GEM
     factory_bot_rails (4.11.1)
       factory_bot (~> 4.11.1)
       railties (>= 3.0.0)
+    faker (1.9.1)
+      i18n (>= 0.7)
     ffi (1.9.25)
     flay (2.12.0)
       erubis (~> 2.7.0)
@@ -285,6 +287,7 @@ DEPENDENCIES
   byebug
   dotenv-rails (~> 2.5)
   factory_bot_rails (~> 4.11, >= 4.11.1)
+  faker (~> 1.9, >= 1.9.1)
   guard (~> 2.15)
   guard-rspec (~> 4.7, >= 4.7.3)
   listen (>= 3.0.5, < 3.2)

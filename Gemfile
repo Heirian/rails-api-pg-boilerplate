@@ -60,6 +60,8 @@ group :development, :test do
   gem 'guard', '~> 2.15', require: false
   # Guard::RSpec automatically run your specs (much like autotest).
   gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
+  # Faker, a port of Data::Faker from Perl, is used to easily generate fake data: names, addresses, phone numbers, etc.
+  gem 'faker', '~> 1.9', '>= 1.9.1'
 end
 
 group :development do
