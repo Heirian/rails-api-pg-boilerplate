@@ -30,6 +30,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# JSON API(jsonapi.org) serializer that works with rails and can be used to serialize any kind of ruby objects
+gem 'fast_jsonapi', '~> 1.5'
+
 group :development, :test do
   # Autoload dotenv in Rails.
   gem 'dotenv-rails', '~> 2.5'
